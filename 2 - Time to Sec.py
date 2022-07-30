@@ -1,0 +1,5 @@
+a = input("Time: ")
+hour = int(a[0:2])
+minute = int(a[3:5])
+second = int(a[6:8])
+print(hour*3600 + minute*60 + second)
